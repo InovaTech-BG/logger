@@ -34,12 +34,16 @@
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
 		"@types/node": "^22.10.5",
+		"@types/stack-trace": "^0.0.33",
 		"tsup": "^8.3.5",
 		"typescript": "^5.7.3",
 		"vitest": "^2.1.8"
 	},
 	"dependencies": {
+		"@inovatechbg/dependecy-injection": "^1.0.5",
 		"@inovatechbg/either": "^1.0.1",
+		"stack-trace": "^1.0.0-pre2",
+		"terminal-utils": "^2.1.4",
 		"zod": "^3.24.1"
 	}
 }
